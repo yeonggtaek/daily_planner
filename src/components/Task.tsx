@@ -7,7 +7,7 @@ export const Task = ({ task, onComplete, onDelete }) => {
         <input
           className="complete-checkbox"
           type="checkbox"
-          value={task.completed}
+          checked={task.completed}
           onChange={(e) => {
             onComplete(task.id, e.target.checked);
           }}

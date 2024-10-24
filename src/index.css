@@ -61,7 +61,14 @@ li {
   text-decoration-line: line-through;
 }
 
-.delete-button {
+.filter-button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.delete-button,
+.filter-button {
   font-size: 1rem;
   border: 1px solid black;
   padding: 4px 8px;
